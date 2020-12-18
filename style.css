@@ -1,0 +1,58 @@
+* {
+     margin:0;
+     padding:0;
+     background-color:#f7f2f2;
+     color:white;
+     font-family:Century Gothic;
+}
+a {
+	color:#000000;
+}
+/* This is to add the styles to the header tag in the HTML*/
+.header h1,p {
+	 background-image:url(images/gridImg1.jpg);
+	 background-size:50%;
+	 background-position:center;
+	 text-align:center;
+}
+.header p {
+	font-size:20px;
+}
+.header h1 {
+	font-size:35px;
+}
+/*o add the styles to the the origami tag in the HTML*/
+.origami {
+	background-color:#fff;
+	border:1px solid #fff;
+}
+.origami .menu{
+	width:200;
+	height:200;
+}
+.origami img {
+	width:200px;
+	height:200px;
+    display:flex;
+	flex-direction:row;
+	background-color:#fff;
+}
+.origami ul li {
+	color:#000000;
+}
+.origami .menu {
+	border:1px solid #fff;
+	background-color:#cecece;
+	width:550px;
+	height:450px;	
+	position:;
+	padding-right:25px;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+}
+.origami .menu {
+	border:#000000 solid;
+	display:flex;
+	flex-direction:space-evenly;
+}
